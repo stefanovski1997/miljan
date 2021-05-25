@@ -1,0 +1,1236 @@
+
+.container_main{
+    position: relative;
+    max-width: 1336px !important;
+    background-color:  #ffff;
+
+}
+
+.ja{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    border: 2px solid #ffff;
+}
+
+ul {list-style-type: none;}
+
+.dugmeLicni{
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #2de5d1;
+    border-radius: 20px;
+    font-size: 19px;
+    position: relative;
+    right: 100px;
+    position: absolute;
+    right: 340px;
+    top: 60px;
+    background-color:#233848;
+}
+
+.prviCon{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #303030;
+}
+
+.izgledNava{
+    background: #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.1), 0 4px 5px 0 rgba(0,0,0,.05), 0 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.prviCountainer{
+    background-color: #212539;
+    margin-top: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 440px;
+}
+
+.drugiCountainer{
+    background-color: #1b365f;
+    margin-top: 5px;
+}
+
+.treciCountainer{
+    background-color: #212539;
+    margin-top: 5px;
+    height: 330px;
+}
+
+.cetvrtiCountainer{
+    margin-top: 5px;
+    height: 290px;
+    background-color: #1b365f;
+}
+
+.petiCountainer{
+    margin-top: 5px;
+    background-color: #212539;
+}
+
+.ispodSlike{
+    position: absolute;
+    z-index: 1;
+    margin-top: 60px;
+    margin-left: 40px;
+    font-size: 17px;
+    font-weight: 14px;
+    line-height: normal;
+    line-height: normal;
+    line-height: 28px;
+    color: #9193a8;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.1), 0 4px 5px 0 rgba(0,0,0,.05), 0 1px 10px 0 rgba(0,0,0,.1);
+    background: linear-gradient(to top, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+    background-color: #212539;
+}
+
+.prvaPolovina{
+    float: right;
+    padding: 25px 0px 25px 135px;
+    margin-top: 140px;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 18px;
+    text-align: end;
+    color: #9193a8;
+    background: linear-gradient(to right, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+}
+
+.drugaPolovina{
+    float: left;
+    padding: 25px 95px 25px 0px;
+    margin-top: 140px;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+    color: #9193a8;
+    background: linear-gradient(to left, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+}
+
+.trecaPolovina{
+    float: right;
+    margin-top: 140px;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 45px 0px 228px 25px;
+    font-size: 18px;
+    color: #9193a8;
+    background: linear-gradient(to right, rgba(33,37,57,0.9), rgba(27, 54, 95, 0.2));
+}
+
+.petaPolovina{
+    padding: 0;
+    margin: 30px 0px 35px 0px;
+    background: linear-gradient(to right, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+}
+
+.text5{
+    float: right;
+    font-size: 18px;
+    color: #9193a8;
+    padding: 25px 30px 25px 0px;
+}
+
+.text6{
+    float: left;
+    font-size: 18px;
+    color: #9193a8;
+    padding: 25px 176px 25px 30px;
+}
+
+.sestaPolovina{
+    padding: 0;
+    margin: 30px 0px 35px 0px;
+    background: linear-gradient(to left, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+}
+
+.devetaPolovina{
+    float: right;
+    padding: 25px 0px 60px 80px;
+    margin-top: 100px;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 18px;
+    text-align: end;
+    color: #9193a8;
+    background: linear-gradient(to right, rgba(33,37,57,0.9), rgba(27, 54, 95, 0.2));
+}
+
+.desetaPolovina{
+    float: left;
+    padding: 25px 24px 25px 0px;
+    margin-top: 100px;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+    color: #9193a8;
+    background: linear-gradient(to left, rgba(33,37,57,0.9), rgba(27, 54, 95, 0.2));
+}
+
+.sedmaPolovina{
+    float: right;
+    padding: 25px 0px 25px 135px;
+    margin-top: 100px;
+    border-right: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    font-size: 18px;
+    text-align: end;
+    color: #9193a8;
+    background: linear-gradient(to right, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+}
+
+.osmaPolovina{
+    float: left;
+    padding: 25px 24px 25px 0px;
+    margin-top: 100px;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 18px;
+    color: #9193a8;
+    background: linear-gradient(to left, rgba(0,123,255,0.2), rgba(33,37,57,0.9));
+}
+
+.miljan{
+    color: #ffff;
+    margin: 20px 0px 20px 40px;
+    font-size: 25px;
+}
+
+.dugmeObrazovanje{
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #2de5d1;
+    border-radius: 20px;
+    font-size: 19px;
+    position: relative;
+    right: 100px;
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    background-color:#233848;
+}
+
+.dugmeKursevi{
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #2de5d1;
+    border-radius: 20px;
+    font-size: 19px;
+    position: relative;
+    right: 100px;
+    position: absolute;
+    right: 350px;
+    top: 30px;
+    background-color:#233848;
+}
+
+.dugmeRadNaRacunaru{
+    width: 200px;
+    text-align: center;
+    color: #ffffff;
+    border: 2px solid #2de5d1;
+    border-radius: 20px;
+    font-size: 19px;
+    position: relative;
+    right: 100px;
+    position: absolute;
+    left: 640px;
+    top: 60px;
+    background-color:#233848;
+}
+
+.cetvrtaPolovina{
+    float: left;
+    margin-top: 140px;
+    border-left: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 25px 0px 5px 25px;
+    font-size: 18px;
+    color: #9193a8;
+    background: linear-gradient(to left, rgba(33,37,57,0.9), rgba(27, 54, 95, 0.2));
+}
+
+.izgledNavaHome{
+    padding: 0px;
+    position: relative;
+}
+
+.izgledSaSlikama{
+    padding: 0px;
+}
+
+.izgledNavaSlike{
+    background: #000;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: 73px;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.1), 0 4px 5px 0 rgba(0,0,0,.05), 0 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.logoLi{
+    padding-right: 8%;
+    padding-top: 0.5%;
+}
+
+.odvajanjeDoleGoreSlikaAlek{
+    margin-bottom: 30px;
+    margin-top: 60px;
+}
+
+.carousel{
+    margin-top: 60px;
+}
+
+.textIntroduction{
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.slikaAlek{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.slikaLogo{
+    width: 60px;
+    height: 60px;
+}
+
+
+.textIspodSlike{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 44px;
+    text-align: center;
+    color: #000000;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.textNaslov{
+    font-size: 26px;
+    margin-bottom: 20px;
+
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 37px;
+
+    color: #000000;
+}
+
+.textOpis{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 37px;
+
+    color: #000000;
+
+    margin-bottom: 30px;
+}
+
+.socialColzaMeni{
+    padding: 0px;
+    position: relative;
+}
+
+.socialColzaMeni li a{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 37px;
+    margin-right: 30px;
+    margin: 10px 20px 10px 20px;
+    color: #D7D8DF;
+}
+
+
+.socialIcon{
+    width: 53px;
+    height: 53px;
+    border-radius: 50px;
+    border-radius: 50%;
+    opacity: 0.85;
+}
+
+.socialIcon2{
+    width: 53px;
+    height: 53px;
+    margin-bottom: 20px;
+    float: left;
+    border-radius: 50%;
+    opacity: 0.85;
+    border: 1px solid #ffffff;
+}
+
+.naslovSkills{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    
+    color: #000000;
+}
+
+.odvajanjeDoleGoreSkills{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.nabrajanja{
+    padding-top: 31px;
+    cursor: default;
+}
+
+.punoDivova{
+    width: fit-content;
+    border: 2px solid #000000;
+    margin-right: 9px;
+    margin-bottom: 9px;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 41px;
+    
+    color: #303030;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    
+    float: left;
+}
+
+.textSoftwareProficiency{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 37px;
+    
+    color: #000000;
+
+    margin-bottom: 50px;
+}
+
+.proficiencyItem{
+    margin-bottom: 80px;
+}
+
+.textItem{
+    width: 168px;
+    height: 53px;
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+    float: left;
+    padding-top: 15px;
+    padding-left: 19px;
+}
+
+.textAndItem{
+    width: 289px;
+    float: left;
+}
+
+.textAndItem7{
+    width: 342px;
+    float: left;
+}
+
+.textItem{
+    width: fit-content;
+
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #9193a8;
+
+    padding-left: 20px;
+    padding-top: 19px;
+}
+
+.formcontrol1{
+    max-height: 10em;
+    min-height: 6em;
+    margin-bottom: 26px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 400px;
+    color: rgba(53, 53, 53, 0.5);
+}
+
+.formcontrol2{
+    height: 3em;
+    margin-bottom: 26px;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    width: 400px;
+    font-weight: normal;
+    color: rgba(53, 53, 53, 0.5);
+}
+
+.formcontrol3{
+    height: 3em;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    width: 400px;
+    color: rgba(53, 53, 53, 0.5);
+}
+
+.desnozaKontakt {
+    float: left;
+    margin-top: 170px;
+}
+
+.levozaKontakt {
+    width: 359px;
+    float: right;
+    margin-top: 170px;
+}
+
+.dugme{
+    margin-top: 25px;
+    width: 180px;
+    height: 50px;
+    left: 541px;
+    top: 5483px;
+    background: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.textDugme{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #000000;
+}
+
+.btn-primary:hover {
+    background-color: #FFFFFF;
+    border-color: #BDBDBD;
+} 
+
+.btn-primary {
+    border-color: #BDBDBD;
+}
+
+.gallerySlika{
+    height: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.textHover {
+    position: absolute;
+    width: fit-content;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 55px;
+
+    color: #FFFFFF;
+}
+
+.textHover2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-family: 'Oswald', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 41px;
+    
+    color: #FFFFFF;
+}
+
+.overlay {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.7);
+    box-sizing: border-box;
+  }
+
+#gallery1{
+    background-image: url("./images/slike_sajt/Characters/02_mealek_character.jpg");
+}
+  
+#gallery2{
+    background-image: url("./images/slike_sajt/02_galerija/222.jpg");
+}
+
+#gallery3{
+    background-image: url("./images/slike_sajt/02_galerija/333.jpg");
+}
+
+#gallery4{
+    background-image: url("./images/slike_sajt/Photography Portraits/03_mealek_portrait.jpg");
+}
+
+#gallery5{
+    background-image: url("./images/slike_sajt/Photography Street/06_mealek_street.jpg");
+}
+
+#gallery6{
+    background-image: url("./images/slike_sajt/Traditional Drawings/02_mealek_tradi2.jpg");
+}
+
+#gallerySlikaCol1{
+    padding-left: 0px;
+    margin-bottom: 44px;
+}
+
+#gallerySlikaCol2{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-bottom: 44px;
+}
+
+#gallerySlikaCol3{
+    padding-right: 0px;
+    margin-bottom: 44px;
+}
+
+#gallerySlikaCol4{
+    padding-left: 0px;
+}
+
+#gallerySlikaCol5{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#gallerySlikaCol6{
+    padding-right: 0px;
+}
+
+.galleryHeaderImage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.1), 0 4px 5px 0 rgba(0,0,0,.05), 0 1px 10px 0 rgba(0,0,0,.1);
+}
+
+.gallerySlikaCol:hover{
+    transform: scale(1.01);
+}
+
+.gallerySlikaCol{
+    height: 300px;
+}
+
+.gallerySlikaCol:hover .overlay {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+
+.odvajanjeDoleGoreComissions{
+    margin-bottom: 80px;
+    margin-top: 80px;
+  }
+
+.odvajanjeDoleGoreFormalEducation{
+    padding-top: 80px;
+    border-top: 2px solid #BDBDBD;
+    border-bottom: 2px solid #BDBDBD;
+    padding-bottom: 50px;
+  }
+
+.spidermanRow{
+    border-bottom: 2px solid #BDBDBD;
+    padding-bottom: 35px;
+}
+
+.mail{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    
+    color: #000000;
+
+    margin-left: 45px;
+}
+
+.listaZaKontakt .contactSpam{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+    list-style-type: none;
+    margin-bottom: 40px;
+}
+
+.listaZaKontakt{
+    margin: 0;
+}
+
+.listaZaKontakt li {
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 28px;
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 14px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0px; 
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 37px;
+    color: #000000;
+    cursor: default;
+    background-color:#ffff;
+}
+
+.nav-item .active{
+    color:  #bf71ff;
+}
+
+.lg-sub-html p {
+    font-size: 12px;
+    margin: 5px 0 0;
+    line-height: 20px;
+}
+
+.malaSlova{
+    font-size: 19px;
+}
+
+.dribblePic{
+    margin-right: 25px;
+}
+
+.patreonPic{
+    margin-left: 25px;
+}
+
+.driblePic2{
+    margin-right: 25px;
+    
+}
+
+.behancePic{
+    margin-left: 25px;
+}
+
+.youPic{
+    margin-left: 25px;
+}
+
+.patreonPic2{
+    margin-right: 25px;
+}
+
+.socialCol{
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+}
+
+.socialIcons{
+    display: flex;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-group > *{
+    .form-group > * {
+        background: #FFFFFF;
+        width: 200px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .socialCol{
+        flex-direction: column !important;
+        -webkit-flex-direction: column !important;
+    }
+
+    .logoLi{
+        display: none;
+    }
+
+    .gallerySlikaCol{
+        margin: 0;
+    }
+
+    #gallerySlikaCol1, #gallerySlikaCol3, #gallerySlikaCol5{
+        padding: 0 5px 0 0;
+    }
+
+    #gallerySlikaCol2, #gallerySlikaCol4, #gallerySlikaCol6{
+        padding: 0 0 0 5px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .form-group > *{
+        float: none !important;
+        width: 100%;
+    }
+
+    .odvajanjeDoleGoreSlikaAlek{
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .odvajanjeDoleGoreComissions{
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+
+    .slikaAlek {
+        width: 100px;
+        height: 100px;
+    }
+
+    .textIspodSlike {
+        font-size: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .textNaslov {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .socialIcon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .malaSlova{
+        font-size: 17px;
+    }
+
+    .odvajanjeDoleGoreSkills {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .odvajanjeDoleGoreFormalEducation {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .punoDivova{
+        line-height: 22px;
+        font-size: 18px;
+    }
+
+    .naslovSkills{
+        font-size: 26px;
+        line-height: 37px;
+    }
+
+    body {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .textOpis {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .carousel {
+        margin-top: 30px;
+    }
+
+    .proficiencyItem {
+        margin-bottom: 20px;
+    }
+
+    .slikaAlek {
+        margin-top: 0px !important;
+    }
+
+    .spidermanRow {
+        padding-bottom: 16px;
+    }
+    
+    .nabrajanja {
+        padding-top: 16px;
+    }
+
+    .textSoftwareProficiency {
+        margin-bottom: 25px;
+        font-size: 24px;
+    }
+
+    .formcontrol1 {
+        margin-top: 20px;
+        min-height: 4em;
+    }
+
+    .dugme {
+        width: 267px;
+        height: 52px;
+    }
+
+    .formcontrol2 {
+        height: 2em;
+    }
+
+    .formcontrol3 {
+        height: 2em;
+    }
+
+    .socialIcon2{
+        width: 60px;
+        height: 60px;
+    }
+
+    .seeMoreDiv {
+        margin-top: 0px !important;
+    }
+
+    .carouselImage {
+        margin-top: 0px!important;;
+    }
+
+    .contactInputsColumn > form{
+        width: 65%;
+    }
+
+    .contactDescriptionColumn, .contactInputsColumn{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .gallerySlikaCol{
+        padding: 0 !important;
+        margin-bottom: 20px !important;
+    }
+
+}
+
+.nav-item{
+    position: relative;
+}
+
+.navbar-nav a:hover::after, .navbar-nav a.active::after {
+    width: 100%;
+}
+
+.socialColzaMeni li a:hover {
+    color: #bf71ff;
+    color: #1cbfff;
+    color: #2de5d1;
+}
+
+.navbar-nav a::after {
+    content: " ";
+    display: block;
+    height: 4px;
+    background: #bf71ff;
+    background: #2de5d1;
+    position: absolute;
+    top: 0px;
+    -o-transition: all 0.25s linear;
+    transition: all 0.25s linear;
+
+    left: 0;
+}
+
+#section1{
+    position: relative;
+}
+
+.carouselImage{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.1), 0 4px 5px 0 rgba(0,0,0,.05), 0 1px 10px 0 rgba(0,0,0,.1);
+}
+
+input[type="radio"] {
+    width: 1em;
+    height: 1em;
+    margin-right: 15px;
+}
+
+.seeMoreDiv{
+    margin-top: 40px;
+}
+
+.seeMoreDiv img{
+    margin-bottom: 10px;
+}
+
+.instaPic3{
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+
+.opacityNav{
+    background-color: rgba(255, 255, 255, 0.85);
+    height: 69px;
+}
+.navbar-nav.navbar-center {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+}
+
+@media only screen and (max-width: 1060px) {
+    .socialColzaMeni li a {
+        font-size: 26px;
+        margin: 0;
+    }
+    .navbar-nav a:hover::after, .navbar-nav a.active::after {
+        width: 0px;
+    }
+}
+
+#lg-counter{
+    padding-top: 5px !important;
+}
+
+.lg-backdrop{
+    background-color: rgba(0, 0, 0, 0.92) !important;
+}
+
+.lg-outer .lg-thumb-outer{
+    background-color: rgba(13, 10, 10, 0.9) !important;
+}
+
+.lg-outer.lg-pull-caption-up.lg-thumb-open .lg-sub-html {
+    bottom: 100px;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.smanjiSlikuLogoa{
+    width: 50px;
+    height: 50px;
+    margin-top: 12%;
+}
+
+.lg-sub-html p {
+    font-size: 16px;
+    line-height: 19px;
+    width: 35%;
+    margin: auto;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.lg-sub-html h4 {
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.animated-icon1{
+    width: 30px;
+    height: 20px;
+    position: relative;
+    margin: 0px;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+    
+.animated-icon1 span{
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: .25s ease-in-out;
+    -moz-transition: .25s ease-in-out;
+    -o-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+    
+.animated-icon1 span {
+    background: #F7941D;
+}
+
+.animated-icon1 span:nth-child(1) {
+    top: 0px;
+}
+    
+.animated-icon1 span:nth-child(2) {
+    top: 10px;
+}
+    
+.animated-icon1 span:nth-child(3) {
+    top: 20px;
+}
+    
+.animated-icon1.open span:nth-child(1) {
+    top: 11px;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+    
+.animated-icon1.open span:nth-child(2) {
+    opacity: 0;
+    left: -60px;
+}
+    
+.animated-icon1.open span:nth-child(3) {
+    top: 11px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+}
+
+*:focus {
+    outline: 0 !important;
+}
+
+.containerNavBar{
+    margin: 0 !important;
+    padding: 0 1
+}
+
+@media only screen and (max-width: 1417px) {
+    .textOpis{
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 0px;
+    }
+
+    .textNaslov{
+        font-size: 24px;
+    }
+
+    .textIspodSlike {
+        font-size: 26px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .slikaAlek {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 1294px) {
+    .textOpis{
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 0px;
+    }
+}
+
+.removeActive{
+    color: #333333 !important;   
+}
+
+.removeActive::after{
+    display: none !important;
+}
